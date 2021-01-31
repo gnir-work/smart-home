@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "AC-Remote",
+			"path": "AC-Remote"
+		},
+		{
+			"name": "fan-remote",
+			"path": "fan-remote"
+		}
+	],
+	"settings": {}
+}
