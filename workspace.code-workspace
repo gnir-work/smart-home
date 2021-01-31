@@ -1,7 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "mqtt-broker",
+			"name": "mqtt-broker"
+		},
+		{
+			"path": "utils",
+			"name": "utils"
 		},
 		{
 			"name": "AC-Remote",
