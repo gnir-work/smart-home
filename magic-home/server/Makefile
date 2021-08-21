@@ -18,4 +18,4 @@ stop:
 	docker ps -a -q --filter "name=$(CONTAINER_NAME)" | grep -q . && docker rm $(CONTAINER_NAME) || echo "No container to remove"
 
 start: image
-	docker run --name $(CONTAINER_NAME) -d -p 8000:8000 $(IMAGE_NAME)
+	docker run --name $(CONTAINER_NAME) --restart unless-stopped -d -p 8000:8000 $(IMAGE_NAME)
