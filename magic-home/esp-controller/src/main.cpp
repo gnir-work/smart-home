@@ -10,7 +10,7 @@
 
 /****************************** Consts ***************************************/
 
-String POWER_URL = "http://192.168.1.27:8000/power";
+String POWER_URL = "http://192.168.1.30:8000/power";
 int SOUND_PIN = A0;
 int WIFI_STATUS_PIN = 4;
 int ACTION_PIN = 5;
